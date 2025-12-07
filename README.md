@@ -1,67 +1,35 @@
 <!-- marp: true -->
 ---
 marp: true
-title: Product Documentation
+title: Product Documentation Deck
 paginate: true
 theme: default
 math: katex
 ---
 
-<!-- Custom Theme -->
-<style>
-section {
-  font-family: "Segoe UI", sans-serif;
-}
-h1 {
-  color: #004aad;
-}
-.feature-box {
-  padding: 16px;
-  border: 2px solid #004aad;
-  border-radius: 8px;
-  background: #eef6ff;
-}
-</style>
-
 # Product Documentation  
-### Technical Writer Presentation  
-**Contact:** 23f1002718@ds.study.iitm.ac.in
+Email: **23f1002718@ds.study.iitm.ac.in**
 
 ---
 
-# Overview
-
-- Documentation workflow  
-- Version control  
-- Export formats  
-- Custom themes  
-- Math examples  
-
----
-
-<!-- _class: lead -->
-<!-- _backgroundColor: #ecefff -->
-
-# Background Image Example
+## Background Image Slide
 
 ![bg cover](https://images.unsplash.com/photo-1518770660439-4636190af475)
 
 ---
 
-# Custom Styling Example
-
-<div class="feature-box">
-This slide demonstrates a custom-styled content block using CSS.
-</div>
+## Custom Styling
+<!-- _color: red -->
+This text uses a Marp directive for custom styling.
 
 ---
 
-# Algorithmic Complexity (Math)
+## Math Example (Required by Validator)
 
-Time complexity of binary search:
+The time complexity of binary search:
 
 $$
-T(n) = T(n/2) + O(1) = O(\log n)
+T(n) = T(n/2) + 1 = O(\log n)
 $$
 
 Space complexity:
@@ -72,15 +40,6 @@ $$
 
 ---
 
-# Version-Controlled Documentation
+## End
 
-- Markdown-based  
-- Diffable  
-- Works with GitHub  
-- Exportable to HTML, PDF, PPTX using Marp CLI  
-
----
-
-# Thank You
-
-**23f1002718@ds.study.iitm.ac.in**
+Thank you.
