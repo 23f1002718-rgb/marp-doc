@@ -53,22 +53,21 @@ h1 {
 <div class="feature-box">
   This text is styled using a custom CSS block inside the Marp file.
 </div>
-
 ---
 
-# Algorithmic Complexity (Math)
+## Algorithmic Complexity (Math Example)
 
-Binary search:
+Binary Search runtime:
 
-\[
+$$
 T(n) = T(n/2) + O(1) = O(\log n)
-\]
+$$
 
 Space complexity:
 
-\[
+$$
 S(n) = O(1)
-\]
+$$
 
 ---
 
