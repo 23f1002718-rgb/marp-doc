@@ -1,7 +1,7 @@
-<!--marp: true-->
+<!-- marp: true -->
 ---
 marp: true
-title: Product Documentation Deck
+title: Product Documentation
 paginate: true
 theme: default
 math: katex
@@ -32,10 +32,10 @@ h1 {
 # Overview
 
 - Documentation workflow  
-- Version control strategy  
-- Multi-format export  
+- Version control  
+- Export formats  
 - Custom themes  
-- Algorithmic complexity (math)
+- Math examples  
 
 ---
 
@@ -48,16 +48,17 @@ h1 {
 
 ---
 
-# Custom Styled Block
+# Custom Styling Example
 
 <div class="feature-box">
-  This text is styled using a custom CSS block inside the Marp file.
+This slide demonstrates a custom-styled content block using CSS.
 </div>
+
 ---
 
-## Algorithmic Complexity (Math Example)
+# Algorithmic Complexity (Math)
 
-Binary Search runtime:
+Time complexity of binary search:
 
 $$
 T(n) = T(n/2) + O(1) = O(\log n)
@@ -73,11 +74,10 @@ $$
 
 # Version-Controlled Documentation
 
-- Markdown based  
-- Works with GitHub  
+- Markdown-based  
 - Diffable  
-- Exportable to HTML/PDF/PPTX via Marp CLI  
-- Ideal for engineering teams  
+- Works with GitHub  
+- Exportable to HTML, PDF, PPTX using Marp CLI  
 
 ---
 
